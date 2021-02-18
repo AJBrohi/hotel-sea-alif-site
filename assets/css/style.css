@@ -30,7 +30,13 @@ body{
     background-color: #f4f4f4;
     max-width: 1500px;
 }
+.center{
+    text-align: center;
+}
 
+.li-decor{
+    list-style: none;
+}
 /* html-elements */
 h1,h2,h3,h4,h5,h6{
     color: #6b6b6b;
@@ -89,13 +95,7 @@ h1,h2,h3,h4,h5,h6{
     color: white;
 }
 
-.center{
-    text-align: center;
-}
 
-.li-decor{
-    list-style: none;
-}
 
 
 /* rooms category details */
@@ -109,14 +109,16 @@ h1,h2,h3,h4,h5,h6{
     top: 215px;
     left: 43%;
     color: #fff;
+    font-size: 52px;
     z-index: 99;
 }
 .bannerm p {
     position: absolute;
-    top: 250px;
-    left: 45%;
+    top: 286px;
+    left: 46%;
     color: #fff;
-    z-index: 99;
+    z-index: 1;
+    font-size: 23px;
 }
 
 
