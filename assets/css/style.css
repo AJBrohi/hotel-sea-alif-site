@@ -120,7 +120,13 @@ h1,h2,h3,h4,h5,h6{
     z-index: 1;
     font-size: 23px;
 }
-
+.bor {
+    border-bottom: 5px solid #a39292;
+    width: 100%;
+    height: 5px;
+    display: inherit;
+    border-radius: 5px;
+}
 
 
 
