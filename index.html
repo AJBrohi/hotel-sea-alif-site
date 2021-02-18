@@ -122,10 +122,11 @@
                                             <div class="image__title">
                                                 <p>Couple Room</p>
                                             </div>
-                                            <div class="image__description">
+                                            <div class="image__description px-5">
                                                 <p>One double bed with attached washroom and free wifi service. It's a
                                                     sea view room.</p>
-                                                <p>Price: 1500/night BDT</p>
+                                                    <p class="taka">Price: BDT <span
+                                                        class="taka-amount ms-2">1500</span>/night</p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,9 +138,10 @@
                                             <div class="image__title">
                                                 <p>Standard Room</p>
                                             </div>
-                                            <div class="image__description">
+                                            <div class="image__description px-5">
                                                 <p>One double bed with attached washroom and free WIFI service.</p>
-                                                <p>Price: 1000/night BDT</p>
+                                                <p class="taka">Price: BDT <span
+                                                    class="taka-amount ms-2">1000</span>/night</p>
                                             </div>
                                         </div>
                                     </div>
@@ -151,9 +153,10 @@
                                             <div class="image__title">
                                                 <p>Standard Double Room</p>
                                             </div>
-                                            <div class="image__description">
+                                            <div class="image__description px-5">
                                                 <p>Two single bed with attached washroom and free WIFI service.</p>
-                                                <p>Price: 1250/night BDT</p>
+                                                <p class="taka">Price: BDT <span
+                                                    class="taka-amount ms-2">1250</span>/night</p>
                                             </div>
                                         </div>
                                     </div>
@@ -189,50 +192,45 @@
             <!-- start gallery & video -->
             <section class="mt-5">
                 <div class="row">
-                    <!-- start gallery -->
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <h3>Gallery</h3>
-                        <div class="container gallery-img-height mt-5">
+                        <div id="lb-back">
+                            <div id="lb-img"></div>
+                          </div>
+                        <div class="container gallery-img-height mt-5 zoom">
                             <div class="row">
-                                <div class="col"><img src="./assets/img/gallery/gallery1.JPG" class="d-block w-100"
+                                <div class="col "><img src="./assets/img/gallery/gallery1.JPG" class="d-block w-100 zoomPic"
                                         alt="Image1"></div>
-                                <div class="col"><img src="./assets/img/gallery/gallery2.JPG" class="d-block w-100"
+                                <div class="col"><img src="./assets/img/gallery/gallery2.JPG" class="d-block w-100 zoomPic"
                                         alt="Image2"></div>
-                                <div class="col"><img src="./assets/img/gallery/gallery3.JPG" class="d-block w-100"
+                                <div class="col"><img src="./assets/img/gallery/gallery3.JPG" class="d-block w-100 zoomPic"
                                         alt="Image3"></div>
-                            </div>
-                            <div class="row mt-3">
-                                <div class="col"><img src="./assets/img/gallery/gallery4.JPG" class="d-block w-100"
+                                <div class="col"><img src="./assets/img/gallery/gallery4.JPG" class="d-block w-100 zoomPic"
                                         alt="Image4"></div>
-                                <div class="col"><img src="./assets/img/gallery/gallery5.JPG" class="d-block w-100"
-                                        alt="Image5"></div>
-                                <div class="col"><img src="./assets/img/gallery/gallery6.JPG" class="d-block w-100"
-                                        alt="Image6"></div>
                             </div>
                             <div class="row mt-3">
-                                <div class="col"><img src="./assets/img/gallery/gallery7.JPG" class="d-block w-100"
+                                <div class="col"><img src="./assets/img/gallery/gallery5.JPG" class="d-block w-100 zoomPic"
+                                        alt="Image5"></div>
+                                <div class="col"><img src="./assets/img/gallery/gallery6.JPG" class="d-block w-100 zoomPic"
+                                        alt="Image6"></div>
+                                <div class="col"><img src="./assets/img/gallery/gallery7.JPG" class="d-block w-100 zoomPic"
                                         alt="Image7"></div>
-                                <div class="col"><img src="./assets/img/gallery/gallery8.JPG" class="d-block w-100"
+                                <div class="col"><img src="./assets/img/gallery/gallery8.JPG" class="d-block w-100 zoomPic"
                                         alt="Image8"></div>
-                                <div class="col"><img src="./assets/img/gallery/gallery9.JPG" class="d-block w-100"
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col"><img src="./assets/img/gallery/gallery9.JPG" class="d-block w-100 zoomPic"
+                                        alt="Image9"></div>
+                                <div class="col"><img src="./assets/img/gallery/gallery10.JPG" class="d-block w-100 zoomPic"
+                                        alt="Image9"></div>
+                                <div class="col"><img src="./assets/img/gallery/gallery11.JPG" class="d-block w-100 zoomPic"
+                                        alt="Image9"></div>
+                                <div class="col"><img src="./assets/img/gallery/gallery12.JPG" class="d-block w-100 zoomPic"
                                         alt="Image9"></div>
                             </div>
                         </div>
                     </div>
                     <!-- end gallery -->
-                    <div class="col-md-6">
-                        <h3>Video Tour</h3>
-                        <div class="container mt-5" id="video-container">
-                            <div class="row">
-                                <div class="col">
-                                    <p>Video 1</p>
-                                </div>
-                                <div class="col">
-                                    <p>Video 2</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
             <!-- end gallery & video -->
@@ -240,7 +238,7 @@
         <!-- end #main -->
 
         <!-- start #footer -->
-        <footer>
+        <footer class="remove-margin">
             <section id="footer" class="container mt-5">
                 <div class="row">
                     <div class="col-md-6 mt-3 center">
