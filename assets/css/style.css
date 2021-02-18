@@ -13,7 +13,6 @@ colors{
 }
 
 /* body */
-
 body{
     margin: 0 auto;
     padding: 0;
@@ -33,7 +32,6 @@ body{
 }
 
 /* html-elements */
-
 h1,h2,h3,h4,h5,h6{
     color: #6b6b6b;
     font-family: 'Noto Sans', sans-serif;
@@ -41,7 +39,6 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* menubar */
-
 .marginLeft a{
     color: black;
 }
@@ -75,6 +72,7 @@ h1,h2,h3,h4,h5,h6{
     width: 150px;
     border: 2px solid #0D84A9;
     border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 /* video */
@@ -86,7 +84,15 @@ h1,h2,h3,h4,h5,h6{
 
 /* footer */
 #footer{
-    height: 400px;
+    height: auto;
     background-color: #1e1e1e;
     color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.li-decor{
+    list-style: none;
 }
