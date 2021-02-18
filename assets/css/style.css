@@ -223,3 +223,26 @@ h1,h2,h3,h4,h5,h6{
     background-color: #1e1e1e;
     color: white;
 }
+/* rooms category details */
+
+.room-details p{
+ 
+}
+
+.bannerm h2 {
+    position: absolute;
+    top: 215px;
+    left: 43%;
+    color: #fff;
+    font-size: 52px;
+    z-index: 99;
+}
+
+.bannerm p {
+    position: absolute;
+    top: 286px;
+    left: 46%;
+    color: #fff;
+    z-index: 1;
+    font-size: 23px;
+}
