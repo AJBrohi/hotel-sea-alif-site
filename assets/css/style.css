@@ -104,7 +104,20 @@ h1,h2,h3,h4,h5,h6{
  
 }
 
-
+.bannerm h2 {
+    position: absolute;
+    top: 215px;
+    left: 43%;
+    color: #fff;
+    z-index: 99;
+}
+.bannerm p {
+    position: absolute;
+    top: 250px;
+    left: 45%;
+    color: #fff;
+    z-index: 99;
+}
 
 
 
