@@ -241,13 +241,11 @@ h1,h2,h3,h4,h5,h6{
     z-index: 1;
     font-size: 23px;
 }
-<<<<<<< HEAD
 .bor {
-    border-bottom: 5px solid #a39292;
+    border-bottom: 5px solid #333;
     width: 100%;
     height: 5px;
-    display: inherit;
-    border-radius: 5px;
+    display: inline-block;
 }
 .bookin {
     height: 65px;
@@ -267,5 +265,3 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* rooms category details */
-=======
->>>>>>> c04fff8a6bfb017c134f3f12c39d1f2b27d64322
