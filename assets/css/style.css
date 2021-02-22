@@ -283,8 +283,8 @@ h6 {
     font-size: 23px;
 }
 
-/* queries */
-.queries input, textarea{
+/* forms */
+.forms input, textarea{
     margin-bottom: 10px;
 }
 
