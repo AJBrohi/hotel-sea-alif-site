@@ -85,6 +85,33 @@ h6 {
     height: 700px;
 }
 
+.owl-prev {
+    height: 50px;
+    width: 30px;
+    background: #080808!important;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    color: #fff!important;
+    font-size: 27px!important;
+    opacity: 0.7;
+    border-radius: 4px;
+}
+.owl-next {
+    height: 50px;
+    width: 30px;
+    background: #080808!important;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    color: #fff!important;
+    font-size: 27px!important;
+    opacity: 0.7;
+    border-radius: 4px;
+    left: 98%;
+}
+
+
 /* rooms */
 .image {
     position: relative;
@@ -235,4 +262,28 @@ h6 {
 .places h4{
     font-size: 25px;
     font-weight: 300;
+}
+
+/* banner */
+.bannerm h2 {
+    position: absolute;
+    top: 215px;
+    left: 43%;
+    color: #fff;
+    font-size: 52px;
+    z-index: 99;
+}
+
+.bannerm p {
+    position: absolute;
+    top: 286px;
+    left: 46%;
+    color: #fff;
+    z-index: 1;
+    font-size: 23px;
+}
+
+/* queries */
+.queries input, textarea{
+    margin-bottom: 10px;
 }
