@@ -6,15 +6,15 @@ $(document).ready(function () {
     $('.slider_section').owlCarousel({
         loop: true,
         margin: 5,
-        responsiveClass: true,
+        // responsiveClass: true,
         autoplay: 3000,
         responsive: {
             0: {
-                items: 3,
+                items: 1,
                 nav: true
             },
             600: {
-                items: 3,
+                items: 2,
                 nav: false
             },
             1000: {
