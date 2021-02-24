@@ -460,6 +460,25 @@ textarea {
     color: black;
 }
 
+/* login page */
+.login{
+    font-family: 'Rubik', sans-serif;
+    height: 550px;
+    width: 650px;
+    margin-top: 250px;
+    margin-bottom: 400px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 4px 40px #888888;
+}
+
+.login-form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
 
 
 
