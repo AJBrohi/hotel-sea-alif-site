@@ -1,75 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Sea Alif</title>
-
-    <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    <!-- Owl Carousel CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" />
-
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Noto+Sans+JP&family=Rubik&display=swap"
-        rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
-
-</head>
+<?php
+include('header.php')
+?>
 
 <body class="bg">
     <div class="container">
         <!-- start #header -->
         <header id="header">
             <!-- start #menu -->
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid d-flex">
-                    <a class="navbar-brand" href="#">Hotel Sea Alif</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse ms-auto" id="navbarNav">
-                        <ul class="navbar-nav m-auto marginLeft">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Rooms</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Booking</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Login</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <?php
+            include('navbar.php')
+            ?>
             <!-- end #menu -->
         </header>
         <!-- end #header -->
@@ -77,17 +17,9 @@
 
         <!-- start banner -->
 
-        <section class="mt-5 remove-margin">
-            <div class="overlay">
-                <img src="assets/img/slider/coxsbazar.jfif" class="img-fluid overlay-image" alt="">
-                <div class="row banner-overlay">
-                    <div class="col-12">
-                            <h2>Hotel Sea Alif</h2>
-                            <p>Cheap | Comfort | Safety | Security</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php
+        include('banner.php')
+        ?>
 
         <section class="mt-3">
             <div class="container room_type mt-5">
@@ -96,13 +28,12 @@
                         <img style="width: 465px; height: 300px;" src="assets/img/rooms/room1.JPG" alt="">
                         <h4 class="room_title">STANDARD ROOM - ONE KING BED</h4>
                         <div class="room_underline"></div>
-                        <p class="room_description"><i class="far fa-check-square"></i>  Bed : <span class="room_acc">1 King Bed</span></p>
+                        <p class="room_description"><i class="far fa-check-square"></i> Bed : <span class="room_acc">1 King Bed</span></p>
                         <p class="room_description"><i class="far fa-check-square"></i> Max People: <span class="room_acc">3</span></p>
                         <p class="room_description"><i class="far fa-check-square"></i> View: <span class="room_acc">City</span></p>
                         <p class="room_description"><i class="far fa-check-square"></i> Wifi: <span class="room_acc">Yes</span></p>
                         <h5 class="pricing">Start From <span class="pricing_balance">BDT 1500/Night</span></h5>
-                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i
-                            class="fas fa-long-arrow-alt-right"></i></button></a>
+                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i class="fas fa-long-arrow-alt-right"></i></button></a>
                     </div>
                     <div class="col-md-4 room-details">
                         <img style="width: 465px; height: 300px;" src="assets/img/rooms/room1.JPG" alt="">
@@ -113,8 +44,7 @@
                         <p class="room_description"><i class="far fa-check-square"></i> View :<span class="room_acc">City</span></p>
                         <p class="room_description"><i class="far fa-check-square"></i> Wifi :<span class="room_acc">Yes</span></p>
                         <h5 class="pricing">Start From <span class="pricing_balance">BDT 1500/Night</span></h5>
-                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i
-                            class="fas fa-long-arrow-alt-right"></i></button></a>
+                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i class="fas fa-long-arrow-alt-right"></i></button></a>
                     </div>
                     <div class="col-md-4 room-details">
                         <img style="width: 465px; height: 300px;" src="assets/img/rooms/room1.JPG" alt="">
@@ -125,8 +55,7 @@
                         <p class="room_description"><i class="far fa-check-square"></i> View :<span class="room_acc">City</span></p>
                         <p class="room_description"><i class="far fa-check-square"></i> Wifi :<span class="room_acc">Yes</span></p>
                         <h5 class="pricing">Start From <span class="pricing_balance">BDT 1500/Night</span></h5>
-                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i
-                            class="fas fa-long-arrow-alt-right"></i></button></a>
+                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i class="fas fa-long-arrow-alt-right"></i></button></a>
                     </div>
                 </div>
                 <div class="row mt-5">
@@ -139,8 +68,7 @@
                         <p class="room_description"><i class="far fa-check-square"></i> View :<span class="room_acc">City</span></p>
                         <p class="room_description"><i class="far fa-check-square"></i> Wifi :<span class="room_acc">Yes</span></p>
                         <h5 class="pricing">Start From :<span class="pricing_balance">BDT 1500/Night</span></h5>
-                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i
-                            class="fas fa-long-arrow-alt-right"></i></button></a>
+                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i class="fas fa-long-arrow-alt-right"></i></button></a>
                     </div>
                     <div class="col-md-4 room-details">
                         <img style="width: 450px; height: 300px;" src="assets/img/rooms/room1.JPG" alt="">
@@ -151,8 +79,7 @@
                         <p class="room_description"><i class="far fa-check-square"></i> View :<span class="room_acc">City</span></p>
                         <p class="room_description"><i class="far fa-check-square"></i> Wifi :<span class="room_acc">Yes</span></p>
                         <h5 class="pricing">Start From <span class="pricing_balance">BDT 1500/Night</span></h5>
-                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i
-                            class="fas fa-long-arrow-alt-right"></i></button></a>
+                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i class="fas fa-long-arrow-alt-right"></i></button></a>
                     </div>
                     <div class="col-md-4 room-details mb-10">
                         <img style="width: 450px; height: 300px;" src="assets/img/rooms/room1.JPG" alt="">
@@ -163,35 +90,15 @@
                         <p class="room_description"><i class="far fa-check-square"></i> View :<span class="room_acc">City</span></p>
                         <p class="room_description"><i class="far fa-check-square"></i> Wifi :<span class="room_acc">Yes</span></p>
                         <h5 class="pricing">Start From <span class="pricing_balance">BDT 1500/Night</span></h5>
-                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i
-                            class="fas fa-long-arrow-alt-right"></i></button></a>
+                        <a href="booking.html"><button type="button" class="btn booking-button btn-lg">Book Now <i class="fas fa-long-arrow-alt-right"></i></button></a>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
-            integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
-            integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
-        </script>
-
-        <!-- Owl Carousel JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-            crossorigin="anonymous"></script>
-
-        <!-- Jquery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-            crossorigin="anonymous"></script>
-
-        <!-- Custom JS -->
-        <script src="assets/js/script.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <?php
+        include('footer.php')
+        ?>
 </body>
 
 </html>

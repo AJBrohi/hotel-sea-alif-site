@@ -26,47 +26,91 @@ if(isset($login))
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Online Hotel.Com</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link href="../css/style.css"rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Akronim|Libre+Baskerville" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sea Alif</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Owl Carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Noto+Sans+JP&family=Rubik&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/admin.css">
 </head>
-<body id="primary"style="margin-top:50px;">
-	<?php
-include('Menu Bar.php');
-	?>
-<div class="container-fluid"> <!-- Primary Id-->
-  <div class="container">
-    <div class="row"><br>
-      <div class="col-sm-4"></div>
-		<div class="col-sm-4 text-center"style="box-shadow:2px 2px 2px;background-color:#990707;">
-			
-			<h1 align="center"><b><font style="font-family: 'Libre Baskerville', serif;text-shadow:5px 5px #000;">Admin Login ?</font></b></h1>
 
-          <img src="../image/clipart/user.png"alt="Bird" width="200" height="170"style="padding-top:30px;">
+<body class="bg">
+    <div class="container w-100">
+        <!-- start #header -->
+        <header id="header">
+            <!-- start #menu -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid d-flex align-items-center justify-content-center">
+                    <a class="navbar-brand" href="index.html">Hotel Sea Alif</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <!-- end #menu -->
+        </header>
+        <!-- end #header -->
 
-			<?php echo @$error;?>
-          <form action="#" method="post"><br>
-              <div class="form-group">
-                <input type="text" class="form-control"name="eid" placeholder="Username"required>
-              </div>
-            <div class="form-group">
-                <input type="Password" class="form-control"name="pass" placeholder="Password"required>
-            </div>
-          <input type="submit" value="Login" name="login" class="btn btn-primary btn-group btn-group-justified"required>
-      	</form><br>  
-        </div>
-    </div><br>
-  </div>
-</div>
-<?php
-include('Footer.php');
-?>
-</body>
-</html>
+        <!-- start #main -->
+        <main>
+            <section class="container-fluid d-flex align-items-center justify-content-center">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="login center">
+                            <h1 class="pt-5">Admin Login</h1>
+                            <i class="fa fa-user-secret fa-7x mt-5" aria-hidden="true"></i>
+                            <?php echo @$error;?>
+                            <form action="#" method="post"><br>
+                                <div class="row mt-5">
+                                    <div class="col">
+                                        <div class="form-group login-form">
+                                            <input type="Email" class="form-control" name="eid" placeholder="Email Id"
+                                                autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col">
+                                        <div class="form-group login-form">
+                                            <input type="Password" class="form-control" name="pass"
+                                                placeholder="Password" autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="dashboard.php"><input type="submit" value="Login" name="login"
+                                        class="btn booking-button text-center mt-5" required></a>
+                            </form><br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- end #main -->
+    </div>

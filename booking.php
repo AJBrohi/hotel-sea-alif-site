@@ -1,80 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Sea Alif</title>
-
-    <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    <!-- Owl Carousel CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" />
-
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Noto+Sans+JP&family=Rubik&display=swap"
-        rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+<?php
+include('header.php')
+?>
 
 <body class="bg">
     <div class="container">
         <!-- start #header -->
         <header id="header">
             <!-- start #menu -->
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid d-flex">
-                    <a class="navbar-brand" href="index.html">Hotel Sea Alif</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse ms-auto" id="navbarNav">
-                        <ul class="navbar-nav m-auto marginLeft">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="rooms.html">Rooms</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Booking</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Login</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <?php
+            include('navbar.php')
+            ?>
             <!-- end #menu -->
         </header>
         <!-- end #header -->
 
         <!-- start main -->
         <main>
-            <!-- start banner -->
-            <!-- <section class="mt-5 remove-margin">
+            <!-- start banner 
+             <section class="mt-5 remove-margin">
                 <div class="bannerm">
                     <img class="img-fluid about-image" src="assets/img/slider/coxsbazar.jfif" alt="">
                     <div class="row banner-overlay">
@@ -86,19 +29,13 @@
                 </div>
             </section> -->
 
-            <section class="mt-5 remove-margin">
-                <div class="overlay">
-                    <img src="assets/img/slider/coxsbazar.jfif" class="img-fluid overlay-image" alt="">
-                    <div class="row banner-overlay">
-                        <div class="col-12">
-                                <h2>Hotel Sea Alif</h2>
-                                <p>Cheap | Comfort | Safety | Security</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <?php
+            include('banner.php')
+            ?>
+
+
             <!-- end banner -->
-            
+
 
             <!-- start booking form -->
             <section class="container mt-5 forms">
@@ -111,8 +48,7 @@
                                         <h4> Name :</h4>
                                     </div>
                                     <div class="col-sm-12 col-md-9 col-lg-9">
-                                        <input type="text" class="form-control" name="name"
-                                            placeholder="Enter Your Name" required>
+                                        <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
                                     </div>
                                 </div>
                             </div>
@@ -123,8 +59,7 @@
                                         <h4>Email :</h4>
                                     </div>
                                     <div class="col-sm-12 col-md-9 col-lg-9">
-                                        <input type="email" class="form-control" name="email"
-                                            placeholder="Enter Your Email" required />
+                                        <input type="email" class="form-control" name="email" placeholder="Enter Your Email" required />
                                     </div>
                                 </div>
                             </div>
@@ -135,8 +70,7 @@
                                         <h4>Mobile :</h4>
                                     </div>
                                     <div class="col-sm-12 col-md-9 col-lg-9">
-                                        <input type="text" class="form-control" name="phone"
-                                            placeholder="Type Your Phone Number" required>
+                                        <input type="text" class="form-control" name="phone" placeholder="Type Your Phone Number" required>
                                     </div>
                                 </div>
                             </div>
@@ -192,3 +126,8 @@
             <!-- end booking form -->
         </main>
         <!-- end main -->
+        <?php
+        include('footer.php')
+        ?>
+    </div>
+</body>
