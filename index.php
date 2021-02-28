@@ -17,31 +17,9 @@ include('header.php')
         <!-- start #main -->
         <main>
             <!-- start slider -->
-            <section class="remove-margin">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./assets/img/slider/slider1.JPG" class="d-block w-100 img-height" alt="Slide1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/slider/slider2.JPG" class="d-block w-100 img-height" alt="Slide2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/slider/slider3.JPG" class="d-block w-100 img-height" alt="Slide3">
-                        </div>
-                    </div>
-                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button> -->
-                </div>
-            </section>
+            <?php
+            include('slider.php')
+            ?>
             <!-- end slider -->
 
             <!-- start rooms -->
@@ -63,7 +41,7 @@ include('header.php')
                                         <img class="image__img" src="assets/img/rooms/room1.JPG" alt="">
                                         <div class="image__overlay image__overlay--blur">
                                             <div class="image__title">
-                                                <p>Couple Room</p>
+                                                <p>Couple AC Room</p>
                                             </div>
                                             <div class="image__description">
                                                 <p>Two double bed with attached washroom and free WIFI service.</p>
@@ -77,7 +55,7 @@ include('header.php')
                                         <img class="image__img" src="assets/img/rooms/room2.JPG" alt="">
                                         <div class="image__overlay image__overlay--blur">
                                             <div class="image__title">
-                                                <p>Standard Room</p>
+                                                <p>Twin Couple AC Room</p>
                                             </div>
                                             <div class="image__description">
                                                 <p>One double bed with attached washroom and free WIFI service.</p>
@@ -91,7 +69,7 @@ include('header.php')
                                         <img class="image__img" src="assets/img/rooms/room3.JPG" alt="">
                                         <div class="image__overlay image__overlay--blur">
                                             <div class="image__title">
-                                                <p>Standard Double Room</p>
+                                                <p>Couple Deluxe Non-AC Room</p>
                                             </div>
                                             <div class="image__description">
                                                 <p>Two single bed with attached washroom and free WIFI service.</p>
@@ -105,7 +83,7 @@ include('header.php')
                                         <img class="image__img" src="assets/img/rooms/room4.JPG" alt="">
                                         <div class="image__overlay image__overlay--blur">
                                             <div class="image__title">
-                                                <p>Super Deluxe Room</p>
+                                                <p>Twin Couple Deluxe Non-AC Room</p>
                                             </div>
                                             <div class="image__description px-5">
                                                 <p>Two double bed with attached washroom and free WIFI service.</p>
@@ -114,12 +92,34 @@ include('header.php')
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="item1">
-                                    <img src="assets/img/gallery/gallery6.JPG" alt="">
+                                <div class="item1">
+                                    <div class="image">
+                                        <img class="image__img" src="assets/img/rooms/room4.JPG" alt="">
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">
+                                                <p>Couple Economy Non-AC Room</p>
+                                            </div>
+                                            <div class="image__description px-5">
+                                                <p>Two double bed with attached washroom and free WIFI service.</p>
+                                                <p class="taka">Price: BDT <span class="taka-amount ms-2">3000</span>/night</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="item1">
-                                    <img src="assets/img/gallery/gallery6.JPG" alt="">
-                                </div> -->
+                                    <div class="image">
+                                        <img class="image__img" src="assets/img/rooms/room4.JPG" alt="">
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">
+                                                <p class="center">Twin Couple Economy Non-AC Room</p>
+                                            </div>
+                                            <div class="image__description px-5">
+                                                <p>Two double bed with attached washroom and free WIFI service.</p>
+                                                <p class="taka">Price: BDT <span class="taka-amount ms-2">3000</span>/night</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

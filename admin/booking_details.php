@@ -6,6 +6,7 @@
 		<th>Name</th>
 		<th>Email</th>
 		<th>Mobile Number</th>
+		<th>Address</th>
 		<th>Room Type</th>
 		<th>Check In Date</th>
 		<th>Check Out Date</th>
@@ -26,6 +27,7 @@ $oid=$res['id'];
 		<td><?php echo $res['name']; ?></td>
 		<td><?php echo $res['email']; ?></td>
 		<td><?php echo $res['phone']; ?></td>
+		<td><?php echo $res['address']; ?></td>
 		<td><?php echo $res['room_type']; ?></td>
 		<td><?php echo $res['check_in_date']; ?></td>
 		<td><?php echo $res['check_out_date']; ?></td>

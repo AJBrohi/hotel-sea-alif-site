@@ -1,5 +1,25 @@
 <?php
-include('header.php')
+include('header.php');
+include('connection.php');
+
+extract($_REQUEST);
+if(isset($savedata))
+{
+  $sql= mysqli_query($con,"select * from room_booking_details where email='$email' and room_type='$room_type' and address='$address' and check_in_date='$cdate' and check_out_date='$codate'");
+  if(mysqli_num_rows($sql)) 
+  {
+  $msg= "<h1 style='color:red'>You have already booked this room</h1>";    
+  }
+  else
+  {
+   $sql="insert into room_booking_details(name, email, phone, address, room_type,check_in_date, check_out_date, occupancy) 
+  values('$name','$email','$phone','$address', '$room_type','$cdate','$codate','1')";
+   if(mysqli_query($con,$sql))
+   {
+   $msg= "<h1 style='color:blue'>You have Successfully booked this room</h1>"; 
+   }
+  }
+}
 ?>
 
 <body class="bg">
@@ -41,6 +61,7 @@ include('header.php')
             <section class="container mt-5 forms">
                 <form class="form-horizontal" method="post">
                     <div class="row">
+                    <?php echo @$msg; ?>
                         <div class="col-sm-12 col-md-5 pe-5">
                             <div class="form-group">
                                 <div class="row">
@@ -74,6 +95,17 @@ include('header.php')
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="control-label col-sm-12 col-md-3 col-lg-3">
+                                        <h4> Address :</h4>
+                                    </div>
+                                    <div class="col-sm-12 col-md-9 col-lg-9">
+                                        <input type="text" class="form-control" name="address" placeholder="Enter Your Address" required>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="col-sm-12 col-md-7">
@@ -84,10 +116,12 @@ include('header.php')
                                     </div>
                                     <div class="col-sm-12 col-md-9 col-lg-9">
                                         <select class="form-control" name="room_type" required>
-                                            <option>Couple Room</option>
-                                            <option>Standard Room</option>
-                                            <option>Double Room</option>
-                                            <option>Super Deluxe Room</option>
+                                            <option>Couple AC Room</option>
+                                            <option>Twin Couple AC Room</option>
+                                            <option>Couple Deluxe Non-AC Room</option>
+                                            <option>Twin Couple Deluxe Non-AC Room</option>
+                                            <option>Couple Economy Non-AC Room</option>
+                                            <option>Twin Couple Economy Non-AC Room</option>
                                         </select>
                                     </div>
                                 </div>
