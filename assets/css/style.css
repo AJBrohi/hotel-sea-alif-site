@@ -299,7 +299,12 @@ h6 {
 
 .places h4 {
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+.places{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* banner */
@@ -464,6 +469,11 @@ textarea {
 
 
 
+/* admin */
+
+
+
+
 
 /* responsive */
 /* @media only screen and (max-width: 400px) {
@@ -473,10 +483,10 @@ textarea {
 } */
 
 /* Small devices (tablets or large size smart phone of size 768px and up) */
-@media (min-width: @screen-sm-min) {}
+/* @media (min-width: @screen-sm-min) {} */
 
 /* Medium devices (desktops, laptops of size 992px and up) */
-@media (min-width: @screen-md-min) {}
+/* @media (min-width: @screen-md-min) {} */
 
 /* Large devices (large desktops, screens of size 1200px and up) */
-@media (min-width: @screen-lg-min) {}
+/* @media (min-width: @screen-lg-min) {} */

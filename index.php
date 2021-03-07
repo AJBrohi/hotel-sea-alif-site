@@ -204,82 +204,59 @@ include('header.php')
                 <div class="row">
                     <div class="col-md-12 mt-5 text-center">
                         <h4 style="font-size: 25px;">Places to Visit in</h4>
-                        <h3 style="font-size: 35px; letter-spacing: 1px; font-weight: 500;">Cox's Bazar</h3>
+                        <h3 style="font-size: 35px; letter-spacing: 1px; font-weight: 600;">Cox's Bazar</h3>
                     </div>
                     <div class="places">
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" class="w-100 img-fluid" alt="">
+                                <img src="assets/img/places/places1.jpg" class="w-100 img-fluid" alt="Cox's Bazar Sea Beach">
                                 <h4>Cox's Bazar Sea Beach</h4>
-                                <p>Cox's Bazar Beach, located at Cox's Bazar, Bangladesh, is the longest natural sea
-                                    beach in the
-                                    world running 150 kilometres.</p>
+                                <p>Cox's Bazar, the most alluring place of interest for Bangladesh, and not just for Bangladesh it's the longest ocean sea shore on the planet. 120 Kilometers sandy ocean sea shore with a delicate slant and it's the traveler capital of Bangladesh.</p>
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" alt="">
-                                <h4>Sonadia Island</h4>
-                                <p>Sonadia Island is a small island of about 9 square kilometres (3.5 square miles),
-                                    offshore of the
-                                    Cox's Bazar coast in Chittagong Division, Bangladesh</p>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" alt="">
+                                <img src="assets/img/places/places3.jpg" alt="Himchori Waterfall">
                                 <h4>Himchori Waterfall</h4>
-                                <p>Observe the diverse wildlife found at Himchori Waterfall, with over 55 animal species
-                                    and 117
-                                    plant species located in the national park, including elephants, tigers, wild boars,
-                                    sloths, and
-                                    many more.</p>
+                                <p>Numerous attractions are for the sightseers around Cox's Bazar. You can come Himchori to see it's Waterfall, this is renowned for cascade, however in the colder time of year season it diminishes yet during the blustery season it's actually a breathtaking and full cascade can be appreciated.</p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="assets/img/places/places2.jpg" alt="Sonadia Island">
+                                <h4>Sonadia Island</h4>
+                                <p>Sonadia Island is found 15 km north-west of Cox's Bazar Sadar and south of Maheshkhali Dwip.Sonadia Island is encircled by the ocean sea shore on the three sides. Then again, the common little trees, channels and various kinds of birds and ocean creatures have made the spot special and appealing. Also, the island is known as the paradise of birds.</p>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" alt="">
+                                <img src="assets/img/places/places4.jpg" alt="Ramu">
                                 <h4>Ramu</h4>
-                                <p>Ramu is a village in Bangladesh. It is the headquarters of Ramu Upazila, Cox's Bazar
-                                    District. It
-                                    is located on the Baghkhali River, approximately sixteen miles from Cox's Bazar</p>
+                                <p>Ramu is situated on the Baghkhali River, around sixteen miles from Cox's Bazar. Ramu has Mosque, pagodas, Buddhist cloisters, and a bronze Buddha sculpture that is 13-feet in stature.</p>
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" alt="">
-                                <h4>Adinath Temple</h4>
-                                <p>Adinath Temple, located on the summit of Mainak Hill on Maheshkhali Island off the
-                                    coast of Cox's
-                                    Bazar, Bangladesh, is dedicated to the Hindu God, Shiva, who is worshipped as
-                                    Adinath.</p>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" alt="">
-                                <h4>Kolatoli Point</h4>
-                                <p>Kolatoli Point is a part of Cox's Bazar beach situated near Dolphine Moure of Cox's
-                                    Bazar city.
+                                <img src="assets/img/places/places6.jpg" alt="Radiant Fish World">
+                                <h4>Radiant Fish World</h4>
+                                <p>Radiant Fish World is the spot to investigate experience with some information. It is the main ocean aquarium in Bangladesh. On the off chance that you are searching for eco-the travel industry with amusement, Radiant Fish World can be the most ideal decision for you.
                                 </p>
                             </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <img src="assets/img/places/places5.jpg" alt="Adinath Temple">
+                                <h4>Adinath Temple</h4>
+                                <p>Adinath Temple, situated on the culmination of Mainak Hill on Maheshkhali Island off the bank of Cox's Bazar, Bangladesh, is committed to the Hindu God, Shiva, who is venerated as Adinath. The sanctuary is acclaimed for the yearly reasonable held at the foot of Mainak Hill in the long stretch of Phalgun according to the Bengali schedule.</p>
+                            </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" alt="">
-                                <h4>100 feet Buddha</h4>
-                                <p>100 Feet Buddha is located in Cox's Bazar. Plan to see 100 Feet Buddha and other
-                                    attractions that
-                                    appeal to you using our Cox's Bazar trip maker tool.</p>
+                                <img src="assets/img/places/places8.png" alt="Inani Beach">
+                                <h4>Inani Beach</h4>
+                                <p>Inani Beach is an ocean sea shore in Ukhia Upazila of Cox's Bazar District, around 18 kilometers in length. It has a decent view and has heaps of coral stones. The Hills can be seen from one side and the ocean on the other which makes it truly amazing. The perspective on the dawn and dusk of this sea shore is entirely paramount.</p>
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" alt="">
-                                <h4>Laboni Beach</h4>
-                                <p>The oldest beach area in Cox's Bazar and undoubtedly the most popular one. Amazing
-                                    view of the
-                                    coastal line all day round. Hotels are very nearby. There is big market to buy
-                                    souvenir.</p>
+                                <img src="assets/img/places/places7.jpg" alt="Bangabandhu Safari Park">
+                                <h4>Bangabandhu Safari Park</h4>
+                                <p>The Bangabandhu Safari Park at Dulahazra has been set up in 2001 which is situated on Cox's Bazar high route under Chakoria Upazilla. The Park is home to 340 types of plants and 286 types of birds. It is first government safari park in Bangladesh.</p>
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-4">
-                                <img src="assets/img/gallery/beach.jpg" alt="">
+                                <img src="assets/img/places/places9.jpg" alt="Saint Martin">
                                 <h4>Saint Martin</h4>
-                                <p>St. Martin's Island is a small island (area only 3 km2) in the northeastern part of
-                                    the Bay of
-                                    Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming
-                                    the
-                                    southernmost part of Bangladesh.</p>
+                                <p>St. Martin's Island is a little island in the northeastern piece of the Bay of Bengal. It is the lone coral island in Bangladesh. The best way to arrive at St. Martin's Island is by water transportation: boats and ships from Cox Bazar and Teknaf.</p>
                             </div>
                         </div>
                     </div>

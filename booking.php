@@ -12,8 +12,8 @@ if(isset($savedata))
   }
   else
   {
-   $sql="insert into room_booking_details(name, email, phone, address, room_type,check_in_date, check_out_date, occupancy) 
-  values('$name','$email','$phone','$address', '$room_type','$cdate','$codate','1')";
+   $sql="insert into room_booking_details(name, email, phone, address, room_type,check_in_date, check_out_date, confirmation) 
+  values('$name','$email','$phone','$address', '$room_type','$cdate','$codate','No')";
    if(mysqli_query($con,$sql))
    {
    $msg= "<h1 style='color:blue'>You have Successfully booked this room</h1>"; 
