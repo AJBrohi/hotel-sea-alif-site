@@ -48,10 +48,11 @@ include('../header.php')
 
         <!-- start #main -->
         <main>
-            <section class="container-fluid d-flex align-items-center justify-content-center">
+            <section class="d-flex justify-content-center">
                 <div class="row">
                     <div class="col">
-                        <div class="login center">
+                        <div class="login">
+                            <div class="form-center">
                             <h1 class="pt-5">Admin Login</h1>
                             <i class="fa fa-user-secret fa-7x mt-5" aria-hidden="true"></i>
                             <?php echo @$error;?>
@@ -73,8 +74,9 @@ include('../header.php')
                                     </div>
                                 </div>
                                 <a href="dashboard.php"><input type="submit" value="Login" name="login"
-                                        class="btn booking-button text-center mt-5" required></a>
+                                        class="btn btn-primary booking-button text-center mt-5" required></a>
                             </form><br>
+                            </div>
                         </div>
                     </div>
                 </div>

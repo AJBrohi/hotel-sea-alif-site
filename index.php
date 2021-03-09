@@ -27,12 +27,13 @@ include('header.php')
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="master-room">
-                            <h3>Rooms</h3>
+                            <h3 class="borderrr">Rooms</h3>
                             <!-- <a href="">View All Rooms</a> -->
                         </div>
+
                     </div>
                 </div>
-                <div class="row mt-3">
+                <div class="row mt-5">
                     <div class="col">
                         <div class="room_slider">
                             <div class="slider_section owl-carousel">
@@ -94,7 +95,7 @@ include('header.php')
                                 </div>
                                 <div class="item1">
                                     <div class="image">
-                                        <img class="image__img" src="assets/img/rooms/room4.JPG" alt="">
+                                        <img class="image__img" src="assets/img/rooms/room5.JPG" alt="">
                                         <div class="image__overlay image__overlay--blur">
                                             <div class="image__title">
                                                 <p>Couple Economy Non-AC Room</p>
@@ -108,7 +109,7 @@ include('header.php')
                                 </div>
                                 <div class="item1">
                                     <div class="image">
-                                        <img class="image__img" src="assets/img/rooms/room4.JPG" alt="">
+                                        <img class="image__img" src="assets/img/rooms/room6.JPG" alt="">
                                         <div class="image__overlay image__overlay--blur">
                                             <div class="image__title">
                                                 <p class="center">Twin Couple Economy Non-AC Room</p>
@@ -131,7 +132,7 @@ include('header.php')
             <section class="mt-5" id="gallery">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>Gallery</h3>
+                        <h3 class="master-room borderrr text-center">Gallery</h3>
                         <div id="lb-back">
                             <div id="lb-img"></div>
                         </div>
@@ -203,11 +204,11 @@ include('header.php')
             <section class="container mt-3">
                 <div class="row">
                     <div class="col-md-12 mt-5 text-center">
-                        <h4 style="font-size: 25px;">Places to Visit in</h4>
-                        <h3 style="font-size: 35px; letter-spacing: 1px; font-weight: 600;">Cox's Bazar</h3>
+                        <h4 style="font-size: 23px; color:darkgoldenrod; font-weight:600; margin-left:50px;">Places to Visit in</h4>
+                        <h3 class="borderrr master-room" style="font-size: 35px; letter-spacing: 1px; font-weight: 600;">Cox's Bazar</h3>
                     </div>
                     <div class="places">
-                        <div class="row mt-3">
+                        <div class="row mt-4">
                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <img src="assets/img/places/places1.jpg" class="w-100 img-fluid" alt="Cox's Bazar Sea Beach">
                                 <h4>Cox's Bazar Sea Beach</h4>

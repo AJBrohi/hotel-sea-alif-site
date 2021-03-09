@@ -1,4 +1,12 @@
 /* login page */
+.form-center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
 .login{
     font-family: 'Rubik', sans-serif;
     height: 550px;
@@ -8,6 +16,7 @@
     /* border: 5px solid black; */
     border-radius: 10px;
     box-shadow: 7px 4px 40px #888888;
+    position: relative;
 }
 
 .login-form{

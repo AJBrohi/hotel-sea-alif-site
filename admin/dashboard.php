@@ -56,7 +56,6 @@ if ($admin == "") {
           <li><a href="dashboard.php?option=feedback">Feedback</a></li>
           <!-- <li><a href="dashboard.php?option=rooms">Room</a></li> -->
           <li><a href="dashboard.php?option=booking_details">Booking Details</a></li>
-          <li><a href="dashboard.php?option=payment_details">Payment</a></li>
         </ul>
       </div>
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
